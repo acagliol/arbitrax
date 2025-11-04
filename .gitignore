@@ -77,6 +77,6 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Documentation
-*ROADMAP*.md
-*RESUME*.md
+# Documentation (ignore all markdown except README)
+*.md
+!README.md
